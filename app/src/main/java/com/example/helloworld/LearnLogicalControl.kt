@@ -34,6 +34,15 @@ fun getScore(name: String): Int = when (name) {
     "Bob" -> 78
     else -> 0
 }
+
+fun getScore1(name: String): Int = when (name) {
+    "Jack" -> 80
+    "Tom" -> 50
+    "Lily" -> 16
+    "Bob" -> 78
+    else -> 0
+}
+
 //when语句类型匹配
 fun getNumberType(number: Number) = when (number) {
     is Int -> println("number is Int.")
