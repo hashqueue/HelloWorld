@@ -1,6 +1,6 @@
 package com.example.helloworld
 
-class Student(private val sno: String, private val grade: Int, name: String, age: Int) :
+class Student(val sno: String, val grade: Int, name: String, age: Int) :
     Person(name, age) {
     init {
         //主构造函数
