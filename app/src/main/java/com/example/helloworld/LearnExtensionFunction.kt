@@ -15,4 +15,5 @@ object LearnExtensionFunction {
 fun main() {
     val str = "ABC123xyz!@#"
     println("字符串$str 中一共有${LearnExtensionFunction.countLetters(str = str)}个字母和数字.")
+    println("字符串$str 中一共有${str.letterCounter()}个字母和数字.")
 }
